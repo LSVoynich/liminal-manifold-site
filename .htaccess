@@ -1,0 +1,4 @@
+# Redirect www to non-www (canonical domain)
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.liminalmanifold\.com [NC]
+RewriteRule ^(.*)$ https://liminalmanifold.com/$1 [R=301,L]
