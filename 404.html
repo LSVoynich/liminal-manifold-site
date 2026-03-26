@@ -1,0 +1,181 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>404 | Liminal Manifold</title><meta name="description" content="This dimension has been deprecated. The page you're looking for doesn't exist."><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="/logo.svg"><link rel="apple-touch-icon" sizes="192x192" href="/favicon-192x192.png"><link rel="preload" href="/fonts/montserrat-var.woff2" as="font" type="font/woff2" crossorigin><meta property="og:title" content="404 | Liminal Manifold"><meta property="og:description" content="This dimension has been deprecated."><meta name="robots" content="noindex, nofollow"><link rel="stylesheet" href="/_astro/about.DTeu_8EC.css"><style>
+.glitch-404 {
+  font-size: clamp(6rem, 20vw, 14rem);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(6,182,212,.6), 0 0 40px rgba(6,182,212,.3), 0 0 80px rgba(139,92,246,.2);
+}
+.glitch-404::before,
+.glitch-404::after {
+  content: '404';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.glitch-404::before {
+  color: #06b6d4;
+  z-index: -1;
+  animation: glitch-top 3s infinite linear alternate-reverse;
+}
+.glitch-404::after {
+  color: #d946ef;
+  z-index: -2;
+  animation: glitch-bottom 2.5s infinite linear alternate-reverse;
+}
+@keyframes glitch-top {
+  0% { clip-path: inset(0 0 85% 0); transform: translate(-3px, -2px); }
+  10% { clip-path: inset(15% 0 65% 0); transform: translate(3px, 1px); }
+  20% { clip-path: inset(40% 0 40% 0); transform: translate(-2px, 2px); }
+  30% { clip-path: inset(60% 0 20% 0); transform: translate(2px, -1px); }
+  40% { clip-path: inset(10% 0 70% 0); transform: translate(-1px, 2px); }
+  50% { clip-path: inset(30% 0 50% 0); transform: translate(3px, -2px); }
+  60% { clip-path: inset(70% 0 10% 0); transform: translate(-3px, 1px); }
+  70% { clip-path: inset(5% 0 80% 0); transform: translate(2px, 2px); }
+  80% { clip-path: inset(50% 0 30% 0); transform: translate(-2px, -2px); }
+  90% { clip-path: inset(20% 0 60% 0); transform: translate(1px, 1px); }
+  100% { clip-path: inset(80% 0 5% 0); transform: translate(-1px, -1px); }
+}
+@keyframes glitch-bottom {
+  0% { clip-path: inset(80% 0 0 0); transform: translate(3px, 2px); }
+  10% { clip-path: inset(50% 0 20% 0); transform: translate(-2px, -1px); }
+  20% { clip-path: inset(20% 0 50% 0); transform: translate(2px, -2px); }
+  30% { clip-path: inset(70% 0 10% 0); transform: translate(-3px, 1px); }
+  40% { clip-path: inset(30% 0 40% 0); transform: translate(1px, 2px); }
+  50% { clip-path: inset(60% 0 20% 0); transform: translate(-2px, -2px); }
+  60% { clip-path: inset(10% 0 70% 0); transform: translate(3px, 1px); }
+  70% { clip-path: inset(45% 0 35% 0); transform: translate(-1px, -1px); }
+  80% { clip-path: inset(75% 0 5% 0); transform: translate(2px, 2px); }
+  90% { clip-path: inset(25% 0 55% 0); transform: translate(-3px, -2px); }
+  100% { clip-path: inset(5% 0 75% 0); transform: translate(1px, 1px); }
+}
+.scanline-overlay {
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,0,0,0.03) 2px,
+    rgba(0,0,0,0.03) 4px
+  );
+  pointer-events: none;
+  z-index: 100;
+}
+.static-noise {
+  position: fixed;
+  inset: 0;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 99;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+}
+.flicker {
+  animation: flicker 4s infinite;
+}
+@keyframes flicker {
+  0%, 95%, 100% { opacity: 1; }
+  96% { opacity: 0.8; }
+  97% { opacity: 1; }
+  98% { opacity: 0.6; }
+  99% { opacity: 1; }
+}
+.terminal-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  background: #06b6d4;
+  margin-left: 4px;
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+.fade-in-delay-1 { animation-delay: 0.3s; }
+.fade-in-delay-2 { animation-delay: 0.6s; }
+.fade-in-delay-3 { animation-delay: 0.9s; }
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+</style></head> <body class="min-h-screen flex flex-col">
+<div class="scanline-overlay"></div>
+<div class="static-noise"></div>
+
+<header class="sticky top-0 z-50 border-b border-gray-800/50 bg-void/80 backdrop-blur-md"> <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex items-center justify-between h-16"> <a href="/" class="flex items-center gap-3 group" aria-label="Liminal Manifold Home"> <img src="/logo.svg" alt="Liminal Manifold" class="h-9 w-auto logo-glow logo-svg" loading="eager"> <span class="hidden sm:block font-sans font-black text-base text-white tracking-wide uppercase">Liminal Manifold</span> </a> <div class="hidden md:flex items-center gap-6"> <a href="/" class="nav-link">Home</a><a href="/artists" class="nav-link">Artists</a><a href="/music" class="nav-link">Music</a><a href="/books" class="nav-link">Books</a><a href="/about" class="nav-link">About</a><a href="/contact" class="nav-link">Contact</a> </div> <button id="mobile-menu-btn" class="md:hidden text-gray-400 hover:text-white transition-colors" aria-label="Toggle menu"> <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg> </button> </div> <div id="mobile-menu" class="hidden md:hidden pb-4"> <div class="flex flex-col gap-2"> <a href="/" class="nav-link py-2">Home</a><a href="/artists" class="nav-link py-2">Artists</a><a href="/music" class="nav-link py-2">Music</a><a href="/books" class="nav-link py-2">Books</a><a href="/about" class="nav-link py-2">About</a><a href="/contact" class="nav-link py-2">Contact</a> </div> </div> </nav> </header>
+<script type="module">const e=document.getElementById("mobile-menu-btn"),n=document.getElementById("mobile-menu");e?.addEventListener("click",()=>{n?.classList.toggle("hidden")});</script>
+
+<main class="flex-1 flex items-center justify-center relative overflow-hidden">
+  <!-- Background effects -->
+  <div class="absolute inset-0 bg-gradient-to-b from-liminal-cyan/5 via-transparent to-liminal-violet/10"></div>
+  <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full bg-liminal-violet/5 blur-3xl pointer-events-none"></div>
+  <div class="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-liminal-cyan/5 blur-3xl pointer-events-none"></div>
+
+  <div class="relative z-10 text-center px-4 py-20">
+    <!-- Glitching 404 -->
+    <div class="flicker mb-6">
+      <span class="glitch-404">404</span>
+    </div>
+
+    <!-- Terminal-style message -->
+    <p class="font-mono text-xs font-semibold text-liminal-cyan uppercase tracking-[0.4em] mb-6 fade-in">
+      // dimension not found
+    </p>
+
+    <h1 class="text-2xl md:text-4xl font-sans font-black text-white leading-tight mb-6 fade-in fade-in-delay-1">
+      This reality has been <span class="text-liminal-violet">deprecated</span>.
+    </h1>
+
+    <div class="max-w-lg mx-auto mb-10 fade-in fade-in-delay-2">
+      <p class="text-gray-400 leading-relaxed font-light">
+        The coordinates you followed lead to a collapsed manifold.
+        Whatever was here has folded back into the void, or maybe it never existed in this timeline.
+      </p>
+    </div>
+
+    <!-- Terminal log -->
+    <div class="max-w-md mx-auto mb-10 text-left fade-in fade-in-delay-2">
+      <div class="card !bg-gray-900/80 !p-4 font-mono text-xs">
+        <p class="text-gray-600 mb-1">$ locate --dimension <span class="text-liminal-cyan" id="current-path"></span></p>
+        <p class="text-liminal-magenta mb-1">ERROR: manifold_lookup failed</p>
+        <p class="text-gray-600 mb-1">$ status</p>
+        <p class="text-gray-400">reality.state = <span class="text-liminal-violet">DEPRECATED</span></p>
+        <p class="text-gray-400">dimension.exists = <span class="text-liminal-magenta">false</span></p>
+        <p class="text-gray-400">suggestion = <span class="text-liminal-cyan">return to origin</span><span class="terminal-cursor"></span></p>
+      </div>
+    </div>
+
+    <!-- Action buttons -->
+    <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in fade-in-delay-3">
+      <a href="/" class="btn-primary">
+        Return to Origin
+      </a>
+      <a href="/artists" class="btn-primary !border-liminal-cyan/50 !bg-liminal-cyan/10 hover:!bg-liminal-cyan/20 hover:!border-liminal-cyan">
+        Explore Artists
+      </a>
+      <a href="/books" class="btn-primary !border-liminal-magenta/50 !bg-liminal-magenta/10 hover:!bg-liminal-magenta/20 hover:!border-liminal-magenta">
+        Read Books
+      </a>
+    </div>
+  </div>
+
+  <!-- Bottom decorative line -->
+  <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-liminal-violet/30 to-transparent"></div>
+</main>
+
+<footer class="border-t border-gray-800/50 bg-void/90 mt-auto"> <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center"> <a href="/" class="inline-block mb-3" aria-label="Liminal Manifold"> <img src="/logo.svg" alt="Liminal Manifold" class="h-8 w-auto mx-auto logo-glow logo-svg"> </a> <p class="text-xs text-gray-600 font-sans uppercase tracking-widest font-semibold text-liminal-cyan/70">Higher dimensions repository</p> <p class="mt-3 text-xs text-gray-700">&copy; 2025 Liminal Manifold. All rights reserved.</p> </div> </footer>
+
+<script>
+  // Show current path in terminal
+  document.getElementById('current-path').textContent = window.location.pathname;
+</script>
+</body></html>
