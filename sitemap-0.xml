@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"><url><loc>https://liminalmanifold.com/</loc></url><url><loc>https://liminalmanifold.com/about/</loc></url><url><loc>https://liminalmanifold.com/artists/</loc></url><url><loc>https://liminalmanifold.com/artists/andrew-noice/</loc></url><url><loc>https://liminalmanifold.com/artists/beatrix-cross/</loc></url><url><loc>https://liminalmanifold.com/artists/dont-hug-me/</loc></url><url><loc>https://liminalmanifold.com/artists/james-cole/</loc></url><url><loc>https://liminalmanifold.com/artists/kt-hoshi/</loc></url><url><loc>https://liminalmanifold.com/artists/pudgy-cat/</loc></url><url><loc>https://liminalmanifold.com/artists/unlisted-specimens/</loc></url><url><loc>https://liminalmanifold.com/artists/ximena-castillo-vega/</loc></url><url><loc>https://liminalmanifold.com/artists/zara-pixel/</loc></url><url><loc>https://liminalmanifold.com/blog/</loc></url><url><loc>https://liminalmanifold.com/blog/welcome-to-the-manifold/</loc></url><url><loc>https://liminalmanifold.com/books/</loc></url><url><loc>https://liminalmanifold.com/contact/</loc></url><url><loc>https://liminalmanifold.com/music/</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url><loc>https://liminalmanifold.com/about/</loc><lastmod>2026-03-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://liminalmanifold.com/artists/andrew-noice/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/beatrix-cross/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/cassandra-whitfield/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/chiara-bellini/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/dont-hug-me/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/</loc><lastmod>2026-03-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://liminalmanifold.com/artists/james-cole/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/kt-hoshi/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/lauren-hayes/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/morgan-wells/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/pudgy-cat/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/quantum-eve/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/unlisted-specimens/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/vera-blackwell/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/artists/ximena-castillo-vega/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/blog/</loc><lastmod>2026-03-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://liminalmanifold.com/blog/welcome-to-the-manifold/</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://liminalmanifold.com/books/</loc><lastmod>2026-03-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://liminalmanifold.com/contact/</loc><lastmod>2026-03-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://liminalmanifold.com/</loc><lastmod>2026-03-26</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://liminalmanifold.com/music/</loc><lastmod>2026-03-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+</urlset>
