@@ -7,10 +7,12 @@ RewriteCond %{HTTP_HOST} ^www\.liminalmanifold\.com [NC]
 RewriteRule ^(.*)$ https://liminalmanifold.com/$1 [R=301,L]
 
 # Redirect old Almost Supernova URLs to Quantum Eve
-RewriteRule ^artists/almost-supernova(/.*)?$ /artists/quantum-eve$1 [R=301,L]
+RewriteRule ^artists/almost-supernova(/.*)?$ /artists/red-bandwidth$1 [R=301,L]
 
 # Redirect old Zara Pixel URLs to Quantum Eve
-RewriteRule ^artists/zara-pixel(/.*)?$ /artists/quantum-eve$1 [R=301,L]
+RewriteRule ^artists/zara-pixel(/.*)?$ /artists/red-bandwidth$1 [R=301,L]
+# Redirect old Quantum Eve URLs to Red Bandwidth
+RewriteRule ^artists/quantum-eve(/.*)?$ /artists/red-bandwidth$1 [R=301,L]
 
 # ─── Security Headers ───
 <IfModule mod_headers.c>
